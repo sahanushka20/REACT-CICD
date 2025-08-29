@@ -9,6 +9,8 @@ function App() {
   return (
     <>
        <h1>This React App is to set up different pipelines for a react project to run successfully</h1>
+
+       <button onClick={() => setCount((count) => count + 1)}>Count : {count}</button>
          
     </>
   )

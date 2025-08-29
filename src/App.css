@@ -1,8 +1,13 @@
+body{
+    background-color: rgba(252, 240, 255, 0.915);
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+
 }
 
 .logo {
@@ -39,4 +44,16 @@
 
 .read-the-docs {
   color: #888;
+}
+
+button{
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: #d1bcf4af;
+  color: #fff;
+  offset: 2px;
+  border-bottom: rgb(165, 42, 134) 2px solid;
+  
 }
