@@ -1,0 +1,21 @@
+name : "Sample React CI/CD Pipeline"
+
+on:
+  push:
+    branches:
+        - main
+
+jobs:
+    buil-and-test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: "SetUp Node.js"
+              uses: actions/setup-node@v4
+              with:
+                node-version: '21'
+                
+    
+         
+     
+  
